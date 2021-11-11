@@ -1,161 +1,174 @@
 body {
-    background-color: rgb(253, 251, 251);
-    text-align: justify;
+  background-color: rgb(253, 251, 251);
+  text-align: justify;
 }
 
 h3 {
-    display: none;
+  display: none;
 }
 
 .superiorBar {
-    text-align: center;
-    background-color: rgb(243, 243, 243);
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: sticky; /*Diferença do fixed para o sticky, é que no meu caso deixa a barra ficar acima da div criada abaixo, chamada Header Container e para não bagunçar o layout da minha página. Em conjunto com o esclarecimento do vídeo do canal do Matheus Battisti - Hora de Codar ---> https://youtu.be/xPZcH78GFRM */
+  text-align: center;
+  background-color: rgb(243, 243, 243);
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: sticky;
+
+  /*
+  Dica Matheus Battisti - Hora de Codar ---> https://youtu.be/xPZcH78GFRM
+  */
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .navTools ul li {
-    display: inline-block;
-    text-align: left;
-    padding: 0px;
-    margin: 0 7em; 
-    font-size: 17px;
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+  margin: 0 7em;
+  font-size: 17px;
 }
 
 .headerContainer {
-    text-align: center;
-    color:rgb(253, 251, 251);
+  text-align: center;
+  color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    padding: 0.7em;
-    background-color: #04AA6D;
-    border: 2px solid black;
-    position: fixed; /* Obrigatório position fixed */
-    margin: 4.8em 1.6em; /*Alinha Lessons Learned Box com o Main */
-    top: 0;  
+  padding: 0.7em;
+  background-color: rgb(4, 170, 109);
+  border: 2px solid black;
+
+  /*
+  Obrigatório position fixed
+  */
+  position: fixed;
+
+  /*
+  Alinha Lessons Learned Box com o Main
+  */
+  margin: 4.8em 1.6em;
+  top: 0;
 }
 
 #titulo {
-    font-family: monospace;
-    font-size: 18px;
+  font-family: monospace;
+  font-size: 18px;
 }
 
 .bodyContainer {
-    margin-top: -2em;
+  margin-top: -2em;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
-
 .profileContainer {
-    border: 2px solid;
-    background-color: beige;
-    width: fit-content; /* lembrar da altura do profile container */
-    position: fixed; /* Float ou Display */
-    display: inline-block;
-    margin: 8em 2em;
-    padding: 1em;
+  border: 2px solid;
+  background-color: beige;
+  width: fit-content; /* lembrar da altura do profile container */
+  position: fixed; /* Float ou Display */
+  display: inline-block;
+  margin: 8em 2em;
+  padding: 1em;
 
-    /* Estética da Borda */
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+  /* Estética da Borda */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 
-    /* Estética do texto */
-    font-family: monospace;
-    font-size: 13px;
-    
+  /* Estética do texto */
+  font-family: monospace;
+  font-size: 13px;
 }
 
 .pictureContainer {
-    text-align: center;
-    margin: 0.1em;
+  text-align: center;
+  margin: 0.1em;
 }
 
 #minha_foto {
-    width: 80px;
-    border-style: double;
-    border-radius: 10px;
+  width: 80px;
+  border-style: double;
+  border-radius: 10px;
 }
 
 .profileTitle {
-    margin: 0.1em;
+  margin: 0.1em;
 }
 
 .contentContainer {
-    border: 2px solid;
-    background-color: #04AA6D;
-    margin: 3em;
-    margin-left: 20em;
-    border-radius: 15px;
+  border: 2px solid;
+  background-color: rgb(4, 170, 109);
+  margin: 3em;
+  margin-left: 20em;
+  border-radius: 15px;
 }
 
 .sectionContainer {
-    margin: 1em;
-    padding: 1.5em;
-    border: 2px solid;
-    background-color: beige;
+  margin: 1em;
+  padding: 1.5em;
+  border: 2px solid;
+  background-color: beige;
 
-    /* Estética textual */
-    font-family: monospace;
-    font-size: 15px;
-    line-height: 1.5em; /* Requisito 14 */
+  /* Estética textual */
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.5em; /* Requisito 14 */
 }
 
 .contentStart {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .contentEnd {
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 #rodape {
-    text-align: center;
+  text-align: center;
 }
 
 .logoAlignment {
-    width: 15px;
-    color: black;
+  width: 15px;
+  color: black;
 }
 
 .listStyle {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
 }
 
 a:link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    width: 55%;
+  display: inline-block;
+  width: 55%;
 }
 
 .lado-direito {
-    display: inline-block; /* Para que ficasse alinhado e como o desejado tive de juntar position, display e float */
-    float: right;
-    width: 40%;
 
+  /*
+  Para que ficasse alinhado e como o desejado tive de juntar position, display e float.
+  */
+  display: inline-block;
+  float: right;
+  width: 40%;
 }
 
 #asideAesthetic {
-    padding: 2em;
-    background-color: rgb(252, 252, 206);
-    border: 2px solid black;
-    border-radius: 10px;
+  padding: 2em;
+  background-color: rgb(252, 252, 206);
+  border: 2px solid black;
+  border-radius: 10px;
 }

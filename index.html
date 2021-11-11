@@ -8,6 +8,13 @@
     <title>Lessons learned</title>
 </head>
 <body>
+    <!--O Yuri Carvalho me mostrou esse conteúdo, do Scott Vinkle, sobre quando utilizar a div --> 
+    <!--para dar acessbilidade e aviso para quando abrir uma nova janela https://medium.com/@svinkle/why-let-someone-know-when-a-link-opens-a-new-window-8699d20ed3b1-->
+    <div hidden> 
+        <span id = "new-window-0"> Abre em uma nova janela </span> 
+        <span id = "new-window-1"> Abre um site externo </span> 
+        <span id = "new-window-2"> Abre um site externo em uma nova janela </span>   
+      </div>
     <div> <!-- Teste para ver se assim a a barra superior funcione -->
         <div class="superiorBar">
             <div class="navTools">
@@ -62,9 +69,9 @@
                     <div class="pictureContainer">
                         <h2 class="profileTitle">Contato</h2>
                         <ul class="listStyle">
-                            <li><a href="https://github.com/byneur4l" target="_blank" title="Abre a página GitHub do byneur4l"><img src="images/github-logo.png" alt="Mini logo do GitHub" class="logoAlignment"> GitHub</a></li>
+                            <li><a href="https://github.com/byneur4l" target="_blank" rel="noopener" aria-describedby="new-window-2" title="Minha página GitHub: byneur4l"><img src="images/github-logo.png" alt="Mini logo do GitHub" class="logoAlignment"> GitHub</a></li>
                             <li><img src="images/linkedin-logo.png" alt="Mini logo do Linkedin" class="logoAlignment"> Linkedin</li>
-                            <li>E-mail:<a href="mailto:reisblcs@gmail.com" target="_blank" title="Abre e-mail em uma nova página."><em> reisblcs@gmail.com </em></a></li>
+                            <li>E-mail:<a href="mailto:reisblcs@gmail.com" target="_blank" rel="noopener" aria-describedby="new-window-2" title="Abre e-mail em uma nova página."><em> reisblcs@gmail.com </em></a></li>
                         </ul>
                     </div>
                 </section>
